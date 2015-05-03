@@ -1,0 +1,105 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+body
+{
+    margin:0;
+    padding:0;
+    background:#dfe7eb;
+    font-family: 'PT Sans', sans-serif;
+    font-size:16px
+}
+
+h1 {
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
+    font-size:36px;
+    color:#1d7295;
+    position:relative;
+    left:20px;
+}
+
+article header h1 {
+    font-size:22px;
+    position:relative;
+    left:0px;
+    color:#f57900;
+}
+
+p {
+line-height:24px;
+}
+
+header, section, footer {
+    width:960px;
+    margin:0 auto;
+}
+
+
+nav ul {
+padding-top:20px;
+}
+
+nav ul li {
+list-style-type:none;
+display:inline;
+position:relative;
+left:-20px;
+}
+
+nav ul li a {
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    color:#1d7295;
+    margin-right:10px;
+    padding:10px;
+    background-color:#fbfbfb;
+    -moz-border-radius:5px 5px 0 0;
+    -webkit-border-radius:5px 5px 0 0;
+    border-radius:5px 5px 0 0;
+    }
+
+ nav ul li a:hover, .current {
+   color:#f57900;
+    }
+
+section {
+    position:relative;
+    top:-10px;
+    padding:0 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom:20px;
+    background-color:#fbfbfb;
+    padding:20px 20px 20px 30px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+footer {
+    border-top:1px solid #62747b;
+    font-size:13px;
+    color:#62747b;
+    text-align:center;
+    padding:15px 0 15px 0;
+}
+
+article footer {
+    border-top:none;
+    text-align:left;
+    padding:0;
+}
+
+article footer a {
+    color:#f57900;
+    text-decoration:none;
+}
+
+article footer a:hover {
+   text-decoration:underline;
+   color:#1d7295;
+}

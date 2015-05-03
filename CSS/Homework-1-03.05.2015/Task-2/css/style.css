@@ -1,0 +1,53 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+    font-family:Arial;
+    font-size:12px;
+    background-color:#ffffff;
+}
+
+#employees_table {
+    width:456px;
+    margin:150px auto;
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    border-bottom: 1px solid #bbb99d;
+}
+
+#first_col {
+    width:30%;
+    border-right:1px solid #bbb99d;
+}
+#second_col, #third_col {
+    width:26%;
+    border-right:1px solid #bbb99d;
+}
+#fourth_col {
+    width:18%;
+}
+
+td, th {
+    
+    margin:0;
+    padding:4px;
+}
+
+th {
+    color:white;
+    text-align:left;
+    font-weight:normal;
+    background-image:url(../img/th_bg.png);
+    background-repeat:repeat-x;
+}
+
+tr:nth-child(even) {background: #ececd8}
+tr:nth-child(odd) {background: #ffffff;}
+
+.flag {
+float:left;
+margin-right:5px;
+}

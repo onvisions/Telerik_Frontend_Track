@@ -1,0 +1,81 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+    font-size:11px;
+    font-family:Arial;
+}
+
+#ticket_table {
+    width:304px;
+    margin:150px auto;
+    background-color:#595959;
+    color:#bbbbbb;
+}
+
+table {
+    width:100%;
+    }
+
+td, th {
+    text-align:left;
+    margin:0;
+    padding:0;
+}
+
+
+table tr {
+    height:25px;
+    }
+
+#left_column {
+    width:100px;
+}
+
+#ticket_id {
+    font-size:16px;
+    font-weight:normal;
+    padding-left:2px;
+}
+
+.label {
+    padding-left:2px;
+    padding-right:10px;
+    font-style:italic;
+    color:#fbfbfb;
+}
+
+#status_red {
+    font-weight:bold;
+    color:red;
+    position:relative;
+    top:-10px;
+}
+
+#name, #email, #public_post a {
+    color:#fff2b3;
+}
+#public_post a {
+    text-decoration: none;
+}
+    #public_post a:hover {
+    text-decoration:underline;
+    }
+
+.green {
+    float:left;
+    height:10px;
+    width:10px;
+    background-color:#71b47a;
+    margin-right:2px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#ticket_status {
+    font-weight:bold;
+    color:#e8661a;
+}
+
+
